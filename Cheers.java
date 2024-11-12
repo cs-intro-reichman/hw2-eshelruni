@@ -7,8 +7,8 @@ public class Cheers {
                         String letter = String.valueOf(name.charAt(i)).toUpperCase();
                         String a_or_an = "a  ";
                         if (letter.equals("A") || letter.equals("E") || letter.equals("F") || letter.equals("H")
-                                        || letter.equals("I") || letter.equals("L") || letter.equals("M")
-                                        || letter.equals("N") || letter.equals("O") || letter.equals("R")) {
+                                        || letter.equals("I") || letter.equals("L") || letter.equals("M") || letter.equals("N") 
+                                        || letter.equals("O") || letter.equals("R") || letter.equals("S") || letter.equals("X")) {
                                 a_or_an = "an ";
                         }
                         System.out.println("Give me " + a_or_an + letter + ": " + letter + "!");
